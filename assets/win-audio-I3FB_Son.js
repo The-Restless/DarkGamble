@@ -1,0 +1,1 @@
+var e=`/DarkGamble/assets/win-audio-CuqhNio3.mp3`;export{e as default};
