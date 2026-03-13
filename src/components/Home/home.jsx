@@ -702,7 +702,7 @@ export default function Home() {
             type: "loan_offer",
             data: { balance: finalBal, amount: loanAmt, isSecondLoan },
           });
-        }, 4500);
+        }, 10000);
       } else {
         setModal({
           type: "lose",
@@ -1993,9 +1993,10 @@ export default function Home() {
                     performed.
                     <br />•{" "}
                     <strong style={{ color: "var(--gold)", opacity: 0.8 }}>
-                      Asymmetric friction
+                      Skipping was made harder than betting
                     </strong>{" "}
-                    — Skipping required two clicks. Betting required one.
+                    — Placing a bet took one click. Opting out took two, with a
+                    shame message in between.
                     <br />•{" "}
                     <strong style={{ color: "var(--gold)", opacity: 0.8 }}>
                       Fabricated social proof
