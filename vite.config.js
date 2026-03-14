@@ -3,6 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  // Ensure this matches your repository name exactly
-  base: "/DarkGamble/",
+  base: process.env.NETLIFY ? "/" : "/DarkGamble/",
 });
